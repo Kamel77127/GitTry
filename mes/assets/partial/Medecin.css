@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Merriweather&family=Montserrat:wght@200;300;400;500;600;700&family=Oswald:wght@500&family=Poppins:wght@400;700&family=Sacramento&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 82%;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 1.2;
+}
+
+section {
+  margin-top: 6rem;
+}
+
+section > h2 {
+  text-align: center;
+}
+
+section > p {
+  text-align: center;
+  width: 45%;
+  margin: 0.6rem auto 2.5rem;
+}
+
+.btn {
+  display: inline-block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.7rem 1rem;
+  border-radius: 0.4rem;
+  background: #f72585;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+/*# sourceMappingURL=Medecin.css.map */

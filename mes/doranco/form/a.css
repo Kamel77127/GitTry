@@ -1,0 +1,104 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    
+  background: linear-gradient(to right,#6190E8, #A7BFE8 );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+
+
+#create_account_form{
+font-family: 'Prompt', sans-serif;
+width: 30rem;
+height:40rem;
+padding: 20px;
+background-color: white;
+box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) ;
+border-radius: 10px;
+border: 1px solid black;
+text-transform: uppercase;
+
+}
+
+
+.titre{
+text-align: center;
+margin-bottom: 1rem;
+margin-top: 2rem;
+}
+.input-group{
+   margin: 1rem 1rem;
+   position: relative;
+
+}
+.input-group input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+.input-group i {
+position: absolute;
+right: 10px;
+top: 40px;
+visibility: hidden;
+}
+
+.input-group p {
+    font-size: 1rem;
+    color: red;
+    visibility: hidden;
+}
+
+.btn {
+    width: 40%;
+    height: 10%;
+    border: 1px solid transparent;
+    border-style: none;
+    background: #f7c94b;
+    transition: 400ms all ease-in-out;
+    margin: 1rem 7.3rem;
+    cursor: pointer;
+    font-size: 1rem;
+     
+}
+
+.btn:hover{
+background: transparent;
+border: 1px solid black;
+}
+
+
+
+
+/* ICI C'EST MES TRUCS BIZARRE TU CONNAIS */
+.sucess input {
+    border: 3px green solid;
+}
+
+.sucess i.fa-circle-check {
+    visibility: visible;
+    color: green;
+}
+
+.error input {
+    border: 3px red solid;
+}
+
+.error i.fa-circle-exclamation{
+    color: red;
+    visibility: visible;
+}
+
+.error p {
+    visibility: visible;
+}

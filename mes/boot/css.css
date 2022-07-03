@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+right: 5%;
+top: 2%;
+z-index: 111;
+background-color: transparent;
+}
+body{
+  font-family: 'Gantari';
+}
+.modify_m{
+    margin-right: 1rem;
+    color: whitesmoke;
+    font-family: 'Gantari';
+    font-size: 12px;
+}
+.modify_conne{
+    margin-left: 2rem;
+}
+h1{
+    padding: 2rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    left: 15%;
+    top: 15%;
+    color: black;
+    border: 2px solid rgb(238, 185, 106);
+ 
+  
+}
+.container-bg {
+    width: 100vw;
+    height: 40vh;
+    background-image: url("./img/alek-newton-Myg7TfcEPeI-unsplash\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    filter: saturate(20%);
+  }
+ 
+  .img_container{
+   height: 20rem;
+   width: 57rem;
+  }
+ 
+  .chalet_1{
+    margin-top: 1rem;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+.baguette{
+  display: flex;
+  width: 50%;
+  margin: 0;
+}
+  .chal_1{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .titre2{
+ text-transform: uppercase;
+ font-family: 'Gantari';
+}
+p{
+    font-size: 15px;
+    }
+
+.etape_container{
+  width: 100%;
+  height: 20vh;
+  
+}
+.e_text2{
+  padding-left: 2.8rem;
+  text-transform: uppercase;
+}
+.e_text1{
+  padding-left:2.5rem ;
+  text-transform: uppercase;
+}
+.e_text3{
+  padding-left: 2.5rem;
+  text-transform: uppercase;
+}
+
+.btn_p{
+  background-color: #f7c94b;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  font-family: 'Gantari';
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid white transparent;
+  top: 30%;
+  left: 23%;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn_p:hover{
+  border: 1px solid white;
+  background-color: transparent;
+}
+.card_md{
+  display: none;
+}
+
+
+
+
+
+/* *********************************************MEDIA QUERIES************************* */
+@media(min-width:480px){
+  .modify_m{
+    margin-top: 0.6rem;
+}
+
+h1{
+    left: 20%;  
+}
+.btn_p{
+  top: 26%;
+  left: 25%;
+}
+.etape_container{
+  justify-content: center;
+}
+
+.e_text2, .e_text3{
+
+  padding-left: 3rem;
+}
+.e_text1{
+  margin-left: 3rem;
+}
+.img_container{
+  height: 25rem;
+  width: 57rem;
+ }
+ .footer_c{
+  justify-content: center;
+ }
+ .card_m{
+  margin: 1rem 0 0 1rem;
+}
+.btn_p{
+  padding: 0.5rem 1rem;
+  top: 28%;
+  left: 27%;
+}
+.card_md{
+  display: none;
+}
+}
+
+
+@media(min-width:992px){
+  .modify_m{
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+h1{
+    padding: 4rem;
+    font-size: 4rem;
+    left: 23%;
+    top: 20%;
+ }
+.container-bg {
+    height: 80vh;
+  }
+.btn_p{
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    top: 46%;
+    left: 32%;
+  }
+  .etape_container{
+   justify-content: center;
+  }
+  .md_container{
+   padding: 0 5rem 0 2rem;
+  }
+  .e_text1 {
+    padding: 0 5rem 0 3rem;
+    margin-left: 9rem;
+  }
+  
+  .e_text2{
+    padding: 0 5rem 0 0.7rem;
+  }
+  
+  .e_text3{
+    padding: 0 5rem 0 0;
+  }
+  
+  .footer_c{
+    justify-content: center;
+  }
+  .card_m{
+    margin:2rem 0 0 5rem;
+  }
+  .chalet_1{
+    margin-top: 5rem;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+.baguette{
+  display: flex;
+  width: 50%;
+  margin: 0;
+}
+
+.titre2{
+ font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+    }
+.img_container{
+    height: 60vh;
+     }
+  .btn_p{
+      padding: 0.5rem 1rem;
+      top: 45%;
+      left: 36%;
+    }
+    .card_md{
+      display: none;
+    }
+}
+
+@media(min-width:1280px){
+  .modify_m{
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+h1{
+    padding: 5rem;
+    font-size: 5rem;
+    left: 24%;
+    top: 25%;
+ }
+.container-bg {
+    height: 85vh;
+  }
+.btn_p{
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    top: 40%;
+    left: 20%;
+  }
+  .etape_container{
+   justify-content: center;
+  }
+  .md_container{
+   padding: 0 5rem 0 2rem;
+  }
+  .e_text1 {
+    padding: 0 5rem 0 12.5rem;
+    margin-left: 9rem;
+  }
+  
+  .e_text2{
+    padding: 0 5rem 0 0.7rem;
+  }
+  
+  .e_text3{
+    padding: 0 5rem 0 0;
+  }
+  
+  .footer_c{
+    justify-content: center;
+  }
+  .card_m{
+    margin:2rem 0 0 5rem;
+  }
+  .chalet_1{
+    margin-top: 5rem;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+  }
+.baguette{
+  display: flex;
+  width: 50%;
+  margin: 0;
+}
+.titre2{
+ font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+    }
+.img_container{
+    height: 90vh;
+     }
+  .btn_p{
+      padding: 0.5rem 1rem;
+      top: 55%;
+      left: 35%;
+    }
+    .footer_c{
+      margin-top: 2rem;
+      justify-content: space-around;
+
+    }
+  .card_md{
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 20rem;
+    height: 20vh;
+   
+
+  }
+.card{
+    display: none;
+  }
+  .home{
+    padding: 1.5rem 0 0 1.5rem;
+  }
+ h5{
+  padding: 1rem 0 0 2rem;
+ }
+ .p_card{
+  font-size: 1.2rem;
+  padding-left: 5px;
+ }
+}

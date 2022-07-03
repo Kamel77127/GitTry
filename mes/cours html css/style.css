@@ -1,0 +1,350 @@
+/* GENERAL */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Arial,sans-serif;
+    font-size:15px;
+}
+h1
+{
+    font-family: "Crete Round" , serif;
+    font-size: 45px;
+    color: #444;
+    
+    
+}
+.orange
+{
+    color:#ff7a00;
+}
+
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #444;
+}
+.wrapper
+{
+    width:940px;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+    
+}
+h2 
+{
+    color:#444;
+    font-size: 55px;
+
+}
+h4
+{
+    font-size:24px;
+    color:#444;
+
+}
+p
+{
+    line-height: 20px;
+    color:#777;
+}
+.clear
+{
+    clear: both;
+}
+small
+{
+    font-size: 13px;
+    font-style: italic;
+}
+h3
+{
+    font-size: 30px;
+    color: #444;
+}
+
+
+/* HEADER*/
+
+header
+{
+    height:120px;
+}
+
+header h1
+{
+    float: left;
+    margin-top: 32px;
+}
+
+header nav{
+    float: right;
+    margin-top:50px;
+
+}
+header nav ul li
+{
+    display: inline-block;
+    float: left;
+    
+}
+
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+
+}
+
+/* MAIN IMAGE*/
+
+#image-principal
+{
+height:500px;
+background: url('creation/main.jpg') center;
+}
+#image-principal h2
+{
+font-weight: normal;
+text-transform: uppercase;
+text-align: center;
+padding: 150px 0 40px 0;
+margin-bottom: 20px;
+}
+.button-1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    line-height:50px;
+    text-align: center;
+    border-radius: 3px;
+
+}
+.button-1:hover
+{
+    background: #02b8dd;
+}
+
+/* STEPS*/
+
+#step h4
+{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-top:130px
+}
+#step ul
+{
+    margin: 80px 0;
+}
+#step ul li
+{
+   width: 300px;
+   float: left; 
+   padding-top:0px;
+   text-align: center;
+   margin-right:10px;
+}
+#step-1
+{
+    background: url('creation/steps-icon-1.png') no-repeat top center;
+    
+    
+    
+}
+#step-2
+{
+    background: url('creation/steps-icon-2.png') no-repeat top center;  
+}
+#step-3
+{
+    background: url('creation/steps-icon-3.png') no-repeat top center; 
+    
+}
+section div ul li p
+{
+    margin-bottom: 0px;
+}
+
+/* POSSIBILITIES*/
+
+#possibilities
+{
+    background-color:#efefef;
+    padding: 60px 0;
+}
+
+#possibilities article
+{
+    width: 420px;
+    height:260px;
+    float:left;
+    border-radius:10px;
+}
+#possibilities article:first-child
+{
+    margin-right: 20px;
+}
+.overlay
+{
+    background: rgba(255,255,255, 0.98);
+    height: 100%;
+    width: 220px;
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+article h4
+{
+    border-bottom: 1px solid #ddd ;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+#possibilities p
+{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-2
+{
+color: #fff;
+background-color: #ff7a00;
+padding: 6px 20px;
+border-radius: 3px;
+
+
+}
+
+.button-2:hover
+{
+color: #fff;
+background-color: #02b8dd;
+padding: 6px 20px;
+border-radius: 3px;
+
+
+}
+.button-3
+{
+color: #fff;
+background-color: #ff7a00;
+padding: 6px 20px;
+border-radius: 3px;
+
+
+}
+.button-3:hover
+{
+color: #fff;
+background-color: #02b8dd;
+padding: 6px 20px;
+border-radius: 3px;
+
+
+
+}
+
+/* CONTACT */
+
+#contact 
+{
+    padding: 60px 0;
+    text-align: center;
+}
+#contact h3
+{
+    width: 400px;
+text-transform: uppercase;
+border-bottom: 1px solid #02b8dd;
+margin: 0px auto 20px auto;
+padding-bottom: 20px;
+}
+
+form
+{
+    margin: 60px 0 20px 0;
+}
+label
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #777;
+
+}
+
+input[type="text"]
+{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+
+}
+.button-4
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border-style: none;
+    border-radius: 3px;
+
+}
+.button-4:hover
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #444;
+    border-style: none;
+    border-radius: 3px;
+}
+
+/*FOOTER*/
+footer
+{
+    height: 260px;
+    background-color: #444;
+
+}
+
+footer h1
+{
+    color: #fff;
+    text-align: center;
+    padding: 80px 0 0 0;
+}
+.copyright
+{
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    color: #777;
+    
+}
+
